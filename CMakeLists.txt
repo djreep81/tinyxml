@@ -14,7 +14,7 @@ install(TARGETS tinyxml
         LIBRARY DESTINATION lib
         ARCHIVE DESTINATION lib)
 
-install(FILES "../CMake/Packages/FindTinyXML.cmake" DESTINATION lib)
+install(FILES "CMake/Packages/FindTinyXML.cmake" DESTINATION lib)
 install(FILES tinyxml.h DESTINATION include)
 install(FILES tinystr.h DESTINATION include)
 
