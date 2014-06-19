@@ -6,7 +6,7 @@ include_directories(.)
 
 #add_definitions(-DTIXML_USE_STL)
 
-add_library(tinyxml tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp)
+add_library(tinyxml tinyxml.cpp tinystr.cpp tinyxmlerror.cpp tinyxmlparser.cpp)
 target_link_libraries(tinyxml)
 
 install(TARGETS tinyxml 
